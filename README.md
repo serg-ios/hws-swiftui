@@ -52,3 +52,15 @@ var projectedValue: Binding<String> {
     )
 }
 ```
+
+## Basic button customization using ButtonStyle
+
+To create and reuse custom buttons in SwiftUI, button styles can be created.
+
+```swift
+struct EmptyStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        // Implement this method to return a view.
+    }
+}
+```

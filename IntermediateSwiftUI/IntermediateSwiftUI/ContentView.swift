@@ -10,6 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            ButtonStyleView()
+                .tag("button.style")
+                .tabItem {
+                    Text("B. Style")
+                    Image(systemName: "paintpalette")
+                }
             CustomPropertyWrapperView()
                 .tag("custom.property.wrapper")
                 .tabItem {
