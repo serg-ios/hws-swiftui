@@ -12,6 +12,7 @@
 		799165AF25E1821D0034AF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799165AE25E1821D0034AF15 /* Assets.xcassets */; };
 		799165B225E1821D0034AF15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799165B125E1821D0034AF15 /* Preview Assets.xcassets */; };
 		799165BB25E18DEF0034AF15 /* CustomPropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799165BA25E18DEF0034AF15 /* CustomPropertyWrapperView.swift */; };
+		799165BE25E1943A0034AF15 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799165BD25E1943A0034AF15 /* ButtonStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		799165B125E1821D0034AF15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		799165B325E1821D0034AF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		799165BA25E18DEF0034AF15 /* CustomPropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPropertyWrapperView.swift; sourceTree = "<group>"; };
+		799165BD25E1943A0034AF15 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				799165B325E1821D0034AF15 /* Info.plist */,
 				799165B025E1821D0034AF15 /* Preview Content */,
 				799165BA25E18DEF0034AF15 /* CustomPropertyWrapperView.swift */,
+				799165BD25E1943A0034AF15 /* ButtonStyleView.swift */,
 			);
 			path = IntermediateSwiftUI;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799165BE25E1943A0034AF15 /* ButtonStyleView.swift in Sources */,
 				799165AD25E1821A0034AF15 /* ContentView.swift in Sources */,
 				799165AB25E1821A0034AF15 /* IntermediateSwiftUIApp.swift in Sources */,
 				799165BB25E18DEF0034AF15 /* CustomPropertyWrapperView.swift in Sources */,
